@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Data (never commit cached market data / models / secrets)
+/data/
+models/checkpoints/
+*.parquet
+*.csv
+*.zip
+
+# Secrets / config
+.env
+.env.*
+!.env.example
+secrets/
+config/local.yaml
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+.claude/
